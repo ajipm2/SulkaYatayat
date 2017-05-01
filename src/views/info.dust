@@ -1,0 +1,17 @@
+{>"layout" /}
+
+{<pageheading}
+        info
+{/pageheading}
+
+{<information}
+    <div class="list">
+               <ul>
+                 <li>The bus fare varies according to the distance travelled.</li>
+                 <li>The Student must have a student card for the student discount.</li>
+                 <li>The Student will also get discount in the school/college uniform.</li>
+                 <li>The Student card must be valid to get the student discount</li>
+               </ul>
+           </div>
+
+{/information}

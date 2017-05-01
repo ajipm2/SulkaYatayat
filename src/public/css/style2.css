@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+    background-color: #e05d31;
+}
+
+/*
+   LOGO SECTION*/
+.navbar-brand {
+    width: inherit;
+    height: inherit;
+}
+
+/* MENU LINKS SECTION*/
+
+.menu-section {
+    background-color: #75b73a;
+}
+
+#menu-top a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 10px 10px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu-top-active {
+    background-color: #df5d31;
+}
+
+.menu-section .nav > li > a:hover,.menu-section .nav > li > a:focus {
+    background-color: #df5d31!important;
+}
+
+.navbar-inverse {
+    background-color: #df5d31;
+    border-color: transparent;
+}
+
+.navbar-toggle {
+    background-color: #F0677C;
+    border: 1px solid #fff;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+button{
+    border: none;
+    background-color: #d1cfcf;
+    padding-top: 10px;
+    color: #000000;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+/* =============================================================
+   FOOTER SECTION STYLES
+ ============================================================ */
+footer {
+    padding: 10px;
+    color: #fff;
+    font-size: 12px;
+    background-color: #75b73a;
+    width: 100%;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;height:45px;
+}
+
+footer a, footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.list{
+    background-color: #aaa;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    margin-top: 190px;
+    height: 200px;
+    padding-top: 35px;
+}
+
+table{
+    width: 30%;
+    margin-top: 20px;
+}
+table, th{
+    border: 3px solid black;
+    text-align :center;
+    width: 30%;
+}

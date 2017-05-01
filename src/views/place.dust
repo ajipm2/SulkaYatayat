@@ -1,0 +1,22 @@
+{>"layout" /}
+
+{<pageheading}
+        place
+{/pageheading}
+
+{<info}
+   <table align="center">
+     <thead>
+         <tr style="border: 3px solid black">
+             <th>From</th>
+             <th>To</th>
+         </tr>
+     </thead>
+     <tbody>
+        {#fromPlace}
+            {fromPlace}
+        {/fromPlace}
+     </tbody>
+     </table>
+
+{/info}
