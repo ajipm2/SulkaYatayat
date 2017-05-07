@@ -1,11 +1,35 @@
 {>"layout" /}
 
 {<pageheading}
-        route
+        info
 {/pageheading}
 
-
 {<information}
-
+<section id="table_bg">
+    <table>
+    	<tr>
+    		<td><b>Start Place</b></td>
+    		<td><b>End Place</b></td>
+    		<td><b>Normal Fare</b></td>
+    		<td><b>Student Fare</b></td>
+    	</tr>
+    	{#FareList}
+    			<tr>
+    				<td style="padding-left:10%; padding-right:10%;">
+    						{RouteStart}
+    				</td>
+    				<td style="padding-left:10%; padding-right:10%;">
+    					{RouteEnd}
+    				</td>
+    				<td style="padding-left:10%; padding-right:10%;">
+    				      {NormalFare}
+                    </td>
+                    <td style="padding-left:10%; padding-right:10%;">
+                        	{StudentCardFare}
+                     </td>
+    			</tr>
+    	{/FareList}
+    </table>
+    </section>
 
 {/information}

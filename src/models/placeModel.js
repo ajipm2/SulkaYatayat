@@ -15,6 +15,18 @@ export function readFromPlaces()
             })
     })
 }
+export function listPlace()
+{
+    return new Promise((resolve,reject)=>{
+        knexconfig('place').select('*')
+            .then(placeList=>{
+                resolve(placeList);
+            })
+            .catch(error=>{
+                reject(error);
+            })
+    })
+}
 
 export function readToPlaces()
 {
@@ -50,6 +62,19 @@ export function searchByToPlaces(placeName) {
             })
             .catch(err => {
                 reject(err);
+            })
+    })
+}
+
+export function listFare()
+{
+    return new Promise((resolve,reject)=>{
+        knexconfig('Routes').select('*')
+            .then(fareList=>{
+                resolve(fareList);
+            })
+            .catch(error=>{
+                reject(error);
             })
     })
 }

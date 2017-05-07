@@ -3,15 +3,11 @@ import {Router} from 'express';
 
 let router=Router();
 
-router.get('/getPlaces', function(request, response, next) {
-    let fromPlaceList;
-    placeService.readFromPlaces()
-        .then(placeList=>{
-            fromPlaceList=placeList;
-            return placeService.readToPlaces();
-        })
-        .then(toPlace=>{
-            response.render('place',{fromPlace:fromPlaceList,toPlace:toPlace});
+router.get('/getInfo', function(request, response, next) {
+    placeService.ListPlace()
+        .then(List=>{
+            console.log(List);
+            response.render('place',{PlaceList:List});
         })
         .catch(err=>{
             response.json({error:err});

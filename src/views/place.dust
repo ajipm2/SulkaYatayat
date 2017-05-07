@@ -1,22 +1,25 @@
 {>"layout" /}
 
 {<pageheading}
-        place
+        info
 {/pageheading}
 
-{<info}
-   <table align="center">
-     <thead>
-         <tr style="border: 3px solid black">
-             <th>From</th>
-             <th>To</th>
-         </tr>
-     </thead>
-     <tbody>
-        {#fromPlace}
-            {fromPlace}
-        {/fromPlace}
-     </tbody>
-     </table>
+{<information}
+    <table>
+    	<tr>
+    		<td><b>From Place</b></td>
+    		<td><b>To Place</b></td>
+    	</tr>
+    	{#PlaceList}
+    			<tr>
+    				<td>
+    					{From}
+    				</td>
+    				<td>
+    					{To}
+    				</td>
+    			</tr>
+    	{/PlaceList}
+    </table>
 
-{/info}
+{/information}

@@ -4,7 +4,9 @@ export function readFromPlaces() {
     return routeDetails.readFromPlaces();
 
 }
-
+export function ListPlace() {
+    return routeDetails.listPlace();
+}
 
 export function readToPlaces() {
     return routeDetails.readToPlaces();

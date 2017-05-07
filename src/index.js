@@ -7,7 +7,7 @@ import routes from './routes';
 let app = express();
 
 let APP_PORT = process.env.PORT || 8969;
-let APP_HOST = process.env.HOST || '192.168.0.109';
+let APP_HOST = process.env.HOST || '192.168.1.139';
 
 app.engine('dust', cons.dust);
 

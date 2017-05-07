@@ -34,8 +34,8 @@
                 <div class="col-md-12">
                     <div class="navbar-collapse collapse ">
                         <ul id="menu-top" class="nav navbar-nav navbar-right">
-                            <li><a href="/fare">Routes Fare</a></li>
-                            <li><a href="/places">Place</a></li>
+                            <li><a href="/fare/getFare">Routes Fare</a></li>
+                            <li><a href="/places/getInfo">Place</a></li>
                             <li><a href="/info">info</a></li>
 
 
